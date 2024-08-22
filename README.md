@@ -15,8 +15,7 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
 <div align="left">
 <img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Train_window.png width="500px">
 <img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Training.png width="500px">
-<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/existing_window.png width="500px">
-<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/neu.png width="500px">
+
 <img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/test_window.png width="500px">
 <img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/training_results.png width="500px">
 
