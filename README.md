@@ -16,7 +16,7 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
 
 ## Usage
 
-We use Python v3.7, PyTorch v1.10, and mmcv 1.3.9 for the experiments.
+We use Python v3.9.12, Tensorflow v2.9.2 for the implementation.
 
 ```
 git clone https://github.com/open-mmlab/mmcv.git
