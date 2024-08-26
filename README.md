@@ -19,10 +19,7 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
 <img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
 <div align="left">
         
-<p align="center">
-  <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Train_window.png" width="300">
-  <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Training.png" width="300">
-</p>
+
 <p align="center">
   <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/test_window.png" width="300">
   <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/training_results.png" width="300">
@@ -42,22 +39,29 @@ The main interface of MicroAI includes two main buttons: Enter (to access the in
 
 The figure below shows the menu window that appears after clicking Enter on the main interface. The upper part of the window contains an introduction and usage instructions for MicroAI. The two buttons at the bottom correspond to the two main functions of MicroAI: 1. Training a model based on the training dataset uploaded by the user; 2. Loading the weight files of a pre-saved deep learning model from the local storage and using the loaded model for analysis and result prediction.
 <div align="center">
-<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
+<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Sub_Main_window.png width="500px">
 <div align="left">
         
 After selecting to train a new model, the system will pop up a window allowing the user to choose the neural network architecture：
 
 <div align="center">
-<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
+<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/selector.png width="400px">
 <div align="left">
        
 The figure below shows the main interface for model training. The canvas in the upper left corner automatically displays the training loss curve after training is completed; the canvas in the upper right corner automatically shows the comparison curve of the predicted results versus the actual values based on the training dataset, allowing users to quickly get a visual understanding of the model's performance; the canvas in the lower left corner is used to visualize the MLP structure. Once the user inputs parameters such as the number of input neurons, output neurons, number of hidden layers, and number of neurons per layer into the text boxes, the MLP structure can be visualized. After clicking the Apply button, the current MLP model structure is drawn on the canvas. The training information panel in the lower right corner is used to display various model evaluation results after training is completed.
 
-<div align="center">
-<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
+<p align="center">
+  <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Train_window.png" width="300">
+  <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Training.png" width="300">
+</p>
 <div align="left">
 
+In addition to the functionality of training a model from scratch, MicroAI also offers an option to load pre-trained model weight files. The figure below shows the window interface for the model weight file loading feature. The model information module at the top will automatically display some basic information about the loaded model once the weight file is successfully loaded.
 
+<p align="center">
+  <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/existing_window.png" width="300">
+  <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/existing_model.png" width="300">
+</p>
 
 ## Install
 
