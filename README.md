@@ -29,8 +29,18 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
 
 We use Python v3.9.12, Tensorflow v2.9.2 for the implementation.
 
+Step 1. Create an environment and activate it.
 ```
-git clone https://github.com/open-mmlab/mmcv.git
+python3 -m venv my_toolbox
+source my_toolbox/bin/activate
+```
+Step 2. To use the toolbox, install it from source:
+```
+git clone https://github.com/qdh-2002/MicroAI-Toolbox.git
+cd MicroAI-Toolbox
+# To install all dependencies listed in the requirements.txt file.
+pip install -r requirements.txt
+python May8.py
 ```
 
 
