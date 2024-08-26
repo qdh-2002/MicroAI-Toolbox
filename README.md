@@ -21,13 +21,6 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
 <div align="left">
         
 
-<p align="center">
-  <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/test_window.png" width="300">
-  <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/training_results.png" width="300">
-</p>
-
-
-<div align="left">
         
 ## Usage
 
@@ -83,7 +76,12 @@ python May8.py
 ```
 
 
-
+### To package into a standalone .exe file
+For macOS Users:
+```
+pip install pyinstaller
+pyinstaller --onefile --windowed May8.py
+```
 
 
 
