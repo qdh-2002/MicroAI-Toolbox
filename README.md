@@ -35,7 +35,7 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
 
 The figure below shows the overall design diagram of MicroAI.  
 <div align="center">
-<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
+<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/structure.png width="500px">
 <div align="left">
 
 The main interface of MicroAI includes two main buttons: Enter (to access the interface) and Exit (to terminate the program). Clicking on Exit will immediately terminate the entire program.
