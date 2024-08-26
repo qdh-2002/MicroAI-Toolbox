@@ -33,6 +33,34 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
         
 ## Usage
 
+The figure below shows the overall design diagram of MicroAI.  
+<div align="center">
+<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
+<div align="left">
+
+The main interface of MicroAI includes two main buttons: Enter (to access the interface) and Exit (to terminate the program). Clicking on Exit will immediately terminate the entire program.
+
+The figure below shows the menu window that appears after clicking Enter on the main interface. The upper part of the window contains an introduction and usage instructions for MicroAI. The two buttons at the bottom correspond to the two main functions of MicroAI: 1. Training a model based on the training dataset uploaded by the user; 2. Loading the weight files of a pre-saved deep learning model from the local storage and using the loaded model for analysis and result prediction.
+<div align="center">
+<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
+<div align="left">
+        
+After selecting to train a new model, the system will pop up a window allowing the user to choose the neural network architecture：
+
+<div align="center">
+<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
+<div align="left">
+       
+The figure below shows the main interface for model training. The canvas in the upper left corner automatically displays the training loss curve after training is completed; the canvas in the upper right corner automatically shows the comparison curve of the predicted results versus the actual values based on the training dataset, allowing users to quickly get a visual understanding of the model's performance; the canvas in the lower left corner is used to visualize the MLP structure. Once the user inputs parameters such as the number of input neurons, output neurons, number of hidden layers, and number of neurons per layer into the text boxes, the MLP structure can be visualized. After clicking the Apply button, the current MLP model structure is drawn on the canvas. The training information panel in the lower right corner is used to display various model evaluation results after training is completed.
+
+<div align="center">
+<img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
+<div align="left">
+
+
+
+## Install
+
 We use Python v3.9.12, Tensorflow v2.9.2 for the implementation.
 
 Step 1. Create an environment and activate it.
@@ -53,34 +81,6 @@ python May8.py
 
 
 
-### Any optional sections
-
-## Background
-
-### Any optional sections
-
-## Install
-
-This module depends upon a knowledge of [Markdown]().
-
-```
-```
-
-### Any optional sections
-
-## Usage
-
-
-
-Note: The `license` badge image link at the top of this file should be updated with the correct `:user` and `:repo`.
-
-### Any optional sections
-
-## API
-
-### Any optional sections
-
-## More optional sections
 
 ## Contributing
 
@@ -90,8 +90,4 @@ PRs accepted.
 
 Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
 
-### Any optional sections
 
-## License
-
-[MIT © Richard McRichface.](../LICENSE)
