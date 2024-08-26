@@ -1,6 +1,10 @@
 # MicroAI-Toolbox
 
 This branch contains the implementation of my graduation project "Modeling of Microwave Devices Based on Deep Learning and Interface Design(基于深度学习的微波器件建模及界面开发)" and installation of MicroAI toolbox.
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Contributing](#contributing)
 
 ## Introduction
 Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models, where you can upload your own training dataset for model training. Additionally, we offer an interface for adjusting certain hyperparameters, allowing you to modify aspects such as the number of hidden layers in an MLP, the number of neurons per layer, activation functions, and more according to your training needs. After training is complete, you can upload a testing dataset to evaluate your model. You also have the option to upload a trained model file (.h5 file) for testing or making predictions on inputs.
@@ -10,15 +14,11 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
 
 
 
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [Contributing](#contributing)
-
 
 <div align="center">
 <img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
-
+<div align="left">
+        
 <p align="center">
   <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Train_window.png" width="300">
   <img src="https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Training.png" width="300">
