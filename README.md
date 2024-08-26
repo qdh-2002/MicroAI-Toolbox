@@ -10,6 +10,12 @@ Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models,
 
 
 
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Contributing](#contributing)
+
+
 <div align="center">
 <img src=https://github.com/qdh-2002/MicroAI-Toolbox/blob/main/img/img/Main_Window.png width="500px">
 
@@ -44,13 +50,6 @@ python May8.py
 ```
 
 
-- [Security](#security)
-- [Background](#background)
-- [Install](#install)
-- [Usage](#usage)
-- [API](#api)
-- [Contributing](#contributing)
-- [License](#license)
 
 
 
