@@ -1,8 +1,10 @@
 # MicroAI-Toolbox
 
 This branch contains the implementation of my graduation project "Modeling of Microwave Devices Based on Deep Learning and Interface Design(基于深度学习的微波器件建模及界面开发)" and installation of MicroAI toolbox.
-- [Install](#install)
+
+- [Introduction](#introduction)
 - [Usage](#usage)
+- [Install](#install)
 - [Contributing](#contributing)
 
 ## Introduction
