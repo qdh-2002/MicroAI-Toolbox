@@ -1266,14 +1266,13 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # 添加图片
         image_label = QLabel(self)
-        pixmap = QtGui.QPixmap('/img/img/img.jpg') 
+        pixmap = QtGui.QPixmap('img/img/img.jpg') 
         pixmap = pixmap.scaledToWidth(400)  
         image_label.setPixmap(pixmap)
         layout.addWidget(image_label)
 
 
 
-        #self.setStyleSheet("QMainWindow {background-image: url('/Users/heqiudi/Documents/COGS118/screen');}")
 
         self.button_enter = QtWidgets.QPushButton('Enter')
         layout.addWidget(self.button_enter)
