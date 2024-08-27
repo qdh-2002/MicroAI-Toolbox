@@ -1212,8 +1212,6 @@ class MainWindow_sub(QtWidgets.QMainWindow):
         layout = QVBoxLayout(central_widget)
 
 
-        #self.setStyleSheet("QMainWindow {background-image: url('/Users/heqiudi/Documents/COGS118/screen');}")
-
 
         text_label_en = QtWidgets.QLabel("Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models, where you can upload your own training dataset for model training. Additionally, we offer an interface for adjusting certain hyperparameters, allowing you to modify aspects such as the number of hidden layers in an MLP, the number of neurons per layer, activation functions, and more according to your training needs. After training is complete, you can upload a testing dataset to evaluate your model. You also have the option to upload a trained model file (.h5 file) for testing or making predictions on inputs.", self)
         text_label_en.setWordWrap(True)  # 开启文字自动换行
@@ -1268,7 +1266,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         # 添加图片
         image_label = QLabel(self)
-        pixmap = QtGui.QPixmap('/Users/heqiudi/Documents/COGS118/img.jpg') 
+        pixmap = QtGui.QPixmap('/img/img/img.jpg') 
         pixmap = pixmap.scaledToWidth(400)  
         image_label.setPixmap(pixmap)
         layout.addWidget(image_label)
