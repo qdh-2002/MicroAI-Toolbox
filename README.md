@@ -89,8 +89,4 @@ pyinstaller --onefile --windowed Aug22.py
 
 See [the contributing file](CONTRIBUTING.md)!
 
-PRs accepted.
-
-Small note: If editing the Readme, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
-
 
