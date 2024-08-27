@@ -72,7 +72,7 @@ git clone https://github.com/qdh-2002/MicroAI-Toolbox.git
 cd MicroAI-Toolbox
 # To install all dependencies listed in the requirements.txt file.
 pip install -r requirements.txt
-python May8.py
+python Aug22.py
 ```
 
 
@@ -80,7 +80,7 @@ python May8.py
 For macOS Users:
 ```
 pip install pyinstaller
-pyinstaller --onefile --windowed May8.py
+pyinstaller --onefile --windowed Aug22.py
 ```
 
 
