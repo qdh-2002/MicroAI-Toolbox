@@ -11,9 +11,6 @@ This branch contains the implementation of my graduation project "Modeling of Mi
 Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models, where you can upload your own training dataset for model training. Additionally, we offer an interface for adjusting certain hyperparameters, allowing you to modify aspects such as the number of hidden layers in an MLP, the number of neurons per layer, activation functions, and more according to your training needs. After training is complete, you can upload a testing dataset to evaluate your model. You also have the option to upload a trained model file (.h5 file) for testing or making predictions on inputs.
         
 
-欢迎使用MicroAI Toolbox! 这是一个深度学习模型训练的工具箱，您可以选择上传自己的训练数据集来进行模型的训练。同时，我们提供了调整部分超参数的接口，您可以根据训练需求调整MLP的隐藏层层数、每层的神经元个数、激活函数等。训练完成后您可以上传测试数据集进行对模型的测试。您也可以选择上传训练好的模型文件（.h5文件），从而进行测试或对输入进行预测。
-
-
 
 
 <div align="center">
