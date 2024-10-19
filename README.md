@@ -1,6 +1,6 @@
 # MicroAI-Toolbox
 
-This branch contains the implementation "Modeling of Microwave Devices Based on Deep Learning and Interface Design" and installation of MicroAI toolbox.
+This branch contains the implementation of "Modeling of Microwave Devices Based on Deep Learning and Interface Design" and installation of MicroAI toolbox.
 
 - [Introduction](#introduction)
 - [Usage](#usage)
