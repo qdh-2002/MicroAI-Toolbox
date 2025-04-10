@@ -1,4 +1,4 @@
-# MicroAI-Toolbox
+# MicAI-Toolbox
 
 This branch contains the implementation of "Modeling of Microwave Devices Based on Deep Learning and Interface Design" and installation of MicroAI toolbox.
 
@@ -8,7 +8,7 @@ This branch contains the implementation of "Modeling of Microwave Devices Based 
 - [Contributing](#contributing)
 
 ## Introduction
-Welcome to MicroAI Toolbox! This is a toolbox for training deep learning models, where you can upload your own training dataset for model training. Additionally, we offer an interface for adjusting certain hyperparameters, allowing you to modify aspects such as the number of hidden layers in an MLP, the number of neurons per layer, activation functions, and more according to your training needs. After training is complete, you can upload a testing dataset to evaluate your model. You also have the option to upload a trained model file (.h5 file) for testing or making predictions on inputs.
+Welcome to MicAI Toolbox! This is a toolbox for training deep learning models, where you can upload your own training dataset for model training. Additionally, we offer an interface for adjusting certain hyperparameters, allowing you to modify aspects such as the number of hidden layers in an MLP, the number of neurons per layer, activation functions, and more according to your training needs. After training is complete, you can upload a testing dataset to evaluate your model. You also have the option to upload a trained model file (.h5 file) for testing or making predictions on inputs.
         
 
 
